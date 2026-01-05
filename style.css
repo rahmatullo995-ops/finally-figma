@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.Head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+}
+
+.MainNavbar{
+    display: flex;
+    gap: 25px;
+}
+
+.MainNavbar p a{
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.Amallar{
+    display: flex;
+    gap: 25px;
+}
+
+.Text-main{
+    background-image: url("img\(1_\).png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 828px;
+    width: 1093px;
+}
+
+.MainsContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.Text-main p,h1,p{
+    text-align: end;
+}
+
+.yordam{
+    background-color: #E3CEE3;
+    width: 580px;
+    height: 828px;
+}
+
+.Text-main h1{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: #E3CEE3;
+    font-size: 116.18px;
+    font-weight: 700;
+    text-shadow: 10px 5px 2px white, 10px 7px 4px;
+}
+
+.Text-main p:nth-child(1){
+    font-size: 30px;
+}
+
+.p2{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 700;
+}  
+
+.MainGroup{
+    background-image: url("banner1\ 1.png");
+    background-repeat: no-repeat;
+    height: 100px;
+    padding: 10px 25px 45px;
+    background-position: center;
+    margin-top: 100px;
+}
